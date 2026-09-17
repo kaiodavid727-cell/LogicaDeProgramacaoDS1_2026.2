@@ -8,6 +8,4 @@ disponivel_para_venda = True
 print("nome_produto",type(nome_produto))
 print("quantidade_estoque",type(quantidade_estoque))
 print("preco_unitario",type(preco_unitario))
-print("dispenivel_para_venda",type(True))
-
-      
+print("dispenivel_para_venda",type(True)) 

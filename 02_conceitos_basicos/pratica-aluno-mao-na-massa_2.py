@@ -4,7 +4,13 @@
 # 3. Calcule o valor por pessoa
 # 4. Imprima formatado usando f-string
 
-pessoas= input("digitar o numero de pessoas")
-valor_pessoa= input("calcule o valor por pessoa")
-print=(f"valor da conta (int){valor} quantidade de pessoas (int){pessoas} valor por pessoa (int){valor_pessoa} ")
+valor_da_conta = float(input("digite o valor da conta"))
+leia_numeros_pessoas = float(input("digite o numeros de pessoas"))
+calcule_o_valor_pessoa = valor_da_conta / leia_numeros_pessoas
+print(f"essee o valor a pagar por pessoa {calcule_o_valor_pessoa:.2f}")
+
+
+
+
+
 
