@@ -10,3 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor = float(input("valor total consumido no restaurante"))
+taxa = valor * 0.10
+total_conta = valor + taxa
+print(f"total a pagar:{total_conta}")
