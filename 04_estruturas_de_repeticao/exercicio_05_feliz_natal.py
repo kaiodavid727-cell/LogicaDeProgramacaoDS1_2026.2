@@ -9,3 +9,12 @@ da palavra natal exatamente I vezes (ex: I=5 -> "Feliz nataaaal!").
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+I = int(input("nivel de empolgaçao:"))
+
+letras_a = ""
+for _ in range(I):
+    letras_a += "a"
+
+frase = f"Feliz nat{letras_a}l!"
+print(frase)
+
