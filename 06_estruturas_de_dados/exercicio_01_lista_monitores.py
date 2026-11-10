@@ -10,3 +10,10 @@ ENUNCIADO:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+monitor = ["Ryan Mesquita Damasceno"]
+
+monitor.append(input("digite o monitor: "))
+monitor.append(input("digite o segundo monitor: "))
+
+monitor[0] = "Ryan Mesquita Damasceno (ATUALIZADO)"
+print(monitor)
